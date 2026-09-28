@@ -1,0 +1,504 @@
+/* =======================================================
+   Raleigh Halbert Portfolio
+   Brand Guide
+======================================================= */
+
+:root {
+  --background: #F8F8F6;
+  --surface: #FFFFFF;
+  --text: #2C2C2C;
+  --primary: #182F4E;
+  --border: #CCCCCC;
+  --hover: #304F78;
+}
+
+/* =======================================================
+   Global
+======================================================= */
+
+body {
+  margin-left:clamp(275px, 22vw, 360px);
+
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+
+  color: var(--text);
+  background: var(--background);
+}
+
+@media (max-width: 991px) {
+  body {
+    margin-left: 0;
+    margin-top:100px;
+  }
+}
+
+/* =======================================================
+   Headings
+======================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--primary);
+  font-family: Georgia, serif;
+  font-weight: 700;
+}
+
+/* =======================================================
+   Links
+======================================================= */
+
+a,
+a:visited {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover);
+  text-decoration: underline;
+}
+
+/* =======================================================
+   Sidebar
+======================================================= */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: clamp(275px, 22vw, 360px);
+  height: 100vh;
+
+  background: var(--primary) !important;
+
+  overflow-y: auto;
+
+  padding-top: 0;
+
+  z-index: 1030;
+
+  border-right: 1px solid rgba(255,255,255,.15);
+}
+
+.navbar .container-fluid {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+}
+
+.navbar-collapse {
+  display: block !important;
+  width: 100%;
+
+  padding-top: 2rem;
+}
+
+.navbar-nav {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: .8rem;
+
+  width: 100%;
+
+  margin: 0 !important;
+  padding: 0 1.5rem;
+
+  position: relative;
+  z-index: 1;
+} 
+
+/* =======================================================
+   Brand
+======================================================= */
+
+.navbar .navbar-brand {
+
+  display: block;
+  width: 100%;
+
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+
+  color: white !important;
+
+  text-align: left;
+  
+  padding: 1rem 1.5rem 1rem;
+  
+  margin-top: 1rem;
+}
+
+/* =======================================================
+   Navigation
+======================================================= */
+
+.navbar-nav {
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  width: 100%;
+
+  margin-top: 1rem;
+
+  padding: 0 1.5rem;
+}
+
+.navbar .nav-link,
+.navbar .nav-link:visited {
+
+  width: 100%;
+
+  padding: .45rem .8rem;
+
+  color: white !important;
+
+  font-weight: 600;
+
+  text-align: left;
+
+  border-radius: 8px;
+
+  text-decoration: none !important;
+
+  transition: .2s ease;
+  
+  font-size: 1.25rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+
+  background: white !important;
+
+  color: var(--primary) !important;
+
+  text-decoration: none !important;
+}
+
+.navbar-brand-container {
+  margin: 0 !important;
+  width: 100%;
+}
+
+/* Force sidebar contents to start at the top */
+.navbar {
+  align-items: flex-start !important;
+}
+
+.navbar-brand-container {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Remove extra padding around page content */
+.quarto-container {
+  padding-left: 0 !important;
+}
+
+#quarto-content {
+  padding-left: 0 !important;
+}
+
+/* =======================================================
+   Sidebar Footer
+======================================================= */
+
+.sidebar-footer {
+  margin-top: auto;
+
+  width: 100%;
+
+  padding: 1.5rem;
+
+  color: white;
+}
+
+.sidebar-footer::before {
+  content: "";
+
+  display: block;
+
+  width: 100%;
+
+  height: 1px;
+
+  background: rgba(255,255,255,.25);
+
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-footer a {
+  display: block;
+
+  color: white !important;
+
+  text-decoration: none;
+
+  font-size: 1.1rem;
+
+  margin-bottom: .75rem;
+}
+
+.sidebar-footer a:hover {
+  text-decoration: underline;
+}
+
+/* =======================================================
+   Sidebar Footer Links
+======================================================= */
+
+/* Put some space before the last three links */
+.navbar-nav .nav-item:nth-last-child(3) {
+  margin-top: 600px;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,.25);
+}
+
+/* Footer links slightly smaller */
+.navbar-nav .nav-item:nth-last-child(-n+3) .nav-link {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+/* =======================================================
+   Certification Cards
+======================================================= */
+
+.cert-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2rem;
+
+  max-width: 1100px;
+
+  margin: 2rem auto 0;
+
+  align-items: stretch;
+}
+
+.cert-card {
+  background: var(--background);
+
+  border: 1px solid var(--border);
+
+  border-radius: 12px;
+
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+
+  text-align: center;
+
+  text-decoration: none !important;
+
+  color: inherit;
+
+  transition: transform .2s ease,
+              box-shadow .2s ease;
+}
+
+.cert-card h3 {
+  font-size: 1.45rem;
+
+  margin: 0 0 .75rem;
+
+  min-height: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.cert-card img {
+  width: 100%;
+  max-width: 100%;
+
+  height: auto;
+
+  border-radius: 10px;
+
+  display: block;
+}
+
+.cert-card:hover h3 {
+  color: var(--primary);
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 12px 24px rgba(0,0,0,.10);
+
+  cursor: pointer;
+  
+  text-decoration: none !important;
+}
+
+/* =======================================================
+   Academic Foundation
+======================================================= */
+
+.academic-ribbon {
+
+  background: var(--primary);
+
+  border-radius: 16px;
+
+  padding: 1.5rem;
+
+  margin: 1.5rem 0; /*how much room there is between the paragraph above and the beginning of the ribbon*/
+  
+  text-align: center;
+  align-content: center;
+}
+
+.academic-ribbon h3 {
+
+  color: var(--background);
+
+  text-align: center;
+
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+  font-size: 30pt;
+}
+
+.academic-ribbon.anchorjs-link {
+
+  display: none !important;
+}
+
+
+/* =======================================================
+   Major Cards
+======================================================= */
+
+.major-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 2rem;
+
+  margin: auto;
+}
+
+.major-card {
+
+  background: var(--background);
+
+  border: 1px solid var(--border);
+
+  border-radius: 14px;
+
+  padding: 2rem;
+
+  transition: transform .2s ease,
+              box-shadow .2s ease;
+}
+
+.major-card:hover {
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 12px 24px rgba(0,0,0,.10);
+}
+
+.major-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  width: 100%;
+}
+
+.major-card h3 {
+
+  color: var(--primary);
+
+  font-size: 2rem;
+
+  line-height: 1.15;
+
+  text-align: center;
+
+  margin: 0 auto 1.5rem auto;
+}
+
+.major-card .anchorjs-link {
+
+  display: none !important;
+}
+
+.major-content p {
+
+  width: 100%;
+
+  margin: 0 0 1.5rem 0;
+
+  text-align: left;
+}
+
+.major-details {
+
+  text-align: left;
+}
+
+.major-details p {
+
+  margin: 0;
+}
+
+.major-details ul {
+
+  margin: 0;
+
+  padding-left: 1.25rem;
+}
+
+.major-details {
+
+  line-height: 1.4;
+}
+
+.major-details strong {
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+}
