@@ -1,0 +1,10 @@
+---
+title: "My Resume"
+page-layout: full
+---
+
+If my resume doesn't load, you can <a href="Raleigh Halbert Resume.pdf" target="_blank">[**open it in a new tab**]{.underline}.</a>
+
+<iframe src="Raleigh Halbert Resume.pdf" width="100%" height="1080" style="border:none;">
+
+</iframe>

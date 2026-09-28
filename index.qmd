@@ -1,0 +1,108 @@
+---
+title: "Welcome!"
+page-layout: full
+---
+
+::::: columns
+::: {.column width="25%"}
+![](images/Raleigh%20Halbert%20Headshot_%20Removed%20Background.png){width="227" height="478"}
+:::
+
+::: {.column width="65%"}
+I'm Raleigh Halbert, a recent graduate from Syracuse University, where I earned Summa Cum Laude honors with a triple major in Finance, Economics, and Business Analytics. Throughout my academic and professional experiences, I've been driven by my natural curiosity about financial markets, businesses, and the economic forces that shape them.
+
+Whether I'm building financial models in Excel, analyzing data in Python and R, or researching the impact of macroeconomic changes, I enjoy tackling complex problems that require connecting quantitative analysis with real-world decision making.
+
+I wanted to continue building on those interests, both inside and outside of the classroom. I found myself gravitating toward courses that challenged me to think more analytically, while seeking out experiences in equity research, financial services, and leadership that allowed me to apply concepts from my coursework.
+
+I am always looking for opportunities to learn, solve problems, and contribute to meaningful work. Outside of finance, you can find me hiking, snowboarding, photographing new places I've traveled to, or working on a puzzle.
+:::
+:::::
+
+**when you come back to work on this we were working on:**
+
+-   changing the major descriptions
+
+-   changing the key coursework based on what we took
+
+-   add skills?
+
+-   editing it so that you can hover over the card to show the key coursework and/or skills
+
+::::::::::::: academic-ribbon
+### Academic Foundation
+
+:::::::::::: major-grid
+::::: major-card
+::: major-content
+<h3>Finance</h3>
+
+<p>Developed a strong foundation in valuation, investments, financial modeling and capital markets.</p>
+:::
+
+::: major-details
+<strong>Key Coursework</strong>
+
+<ul>
+
+<li>Investments</li>
+
+<li>Derivatives</li>
+
+<li>The Securities Market</li>
+
+<li>Alternative Investments</li>
+
+</ul>
+:::
+:::::
+
+::::: major-card
+::: major-content
+<h3>Economics</h3>
+
+<p>Developed a strong foundation in valuation, investments, financial modeling and capital markets.</p>
+:::
+
+::: major-details
+<strong>Key Coursework</strong>
+
+<ul>
+
+<li>Investments</li>
+
+<li>Derivatives</li>
+
+<li>The Securities Market</li>
+
+<li>Alternative Investments</li>
+
+</ul>
+:::
+:::::
+
+::::: major-card
+::: major-content
+<h3>Business Analytics</h3>
+
+<p>Developed a strong foundation in valuation, investments, financial modeling and capital markets.</p>
+:::
+
+::: major-details
+<strong>Key Coursework</strong>
+
+<ul>
+
+<li>Investments</li>
+
+<li>Derivatives</li>
+
+<li>The Securities Market</li>
+
+<li>Alternative Investments</li>
+
+</ul>
+:::
+:::::
+::::::::::::
+:::::::::::::

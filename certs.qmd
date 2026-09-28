@@ -1,0 +1,98 @@
+---
+title: "Certifications"
+page-layout: full
+---
+
+**These certifications have strengthened my technical foundation in finance and data analysis. EDIT THIS LATERRRRRRRRR TO BE BETTTTTTTERRRRRR**
+
+::::: cert-grid
+::: cert-card
+```{=html}
+<a href="https://portal.bloombergforeducation.com/certificates/QchtKQBuPwnj7ywrvb4FeD1c"
+   target="_blank"
+   rel="noopener noreferrer">
+```
+
+<h3>Bloomberg Market Concepts</h3>
+
+```{=html}
+<img src="images/certifications/BMC.png"
+     alt="Bloomberg Market Concepts"/>
+```
+
+</a>
+:::
+
+::: cert-card
+```{=html}
+<a href="https://portal.bloombergforeducation.com/certificates/QchtKQBuPwnj7ywrvb4FeD1c"
+   target="_blank"
+   rel="noopener noreferrer">
+```
+
+<h3>Bloomberg Finance Fundamentals</h3>
+
+```{=html}
+<img src="images/certifications/BFF.png"
+     alt="Bloomberg Finance Fundamentals"/>
+```
+
+</a>
+:::
+:::::
+
+::::: cert-grid
+::: cert-card
+```{=html}
+<a href="https://portal.bloombergforeducation.com/certificates/fgWaj4q6joR1sehkXJEMqtWv"
+   target="_blank"
+   rel="noopener noreferrer">
+```
+
+<h3>Bloomberg Environmental Social Governance</h3>
+
+```{=html}
+<img src="images/certifications/ESG.png"
+     alt="Bloomberg Environmental Social Governance"/>
+```
+
+</a>
+:::
+
+::: cert-card
+```{=html}
+<a href="https://www.certiport.com/portal/pages/credentialverification.aspx"
+   target="_blank"
+   rel="noopener noreferrer">
+```
+
+<h3>Microsoft Excel Basic</h3>
+
+```{=html}
+<img src="images/certifications/MEB.png"
+     alt="Microsoft Excel Basic"/>
+```
+
+</a>
+:::
+:::::
+
+
+::::: cert-grid
+::: cert-card
+```{=html}
+<a href="https://www.wallstreetoasis.com/files/certificates/504602/1267502/504602-1267502.png"
+   target="_blank"
+   rel="noopener noreferrer">
+```
+
+<h3>Discounted Cash Flows Model</h3>
+
+```{=html}
+<img src="images/certifications/DCF.png"
+     alt="Discounted Cash Flows Model"/>
+```
+
+</a>
+:::
+:::::

@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Raleigh Halbert Portfolio"
+  search: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume   
+      - href: certs.qmd
+        text: Certifcations
+      - href: Raleigh Halbert Resume.pdf
+        text: Download Resume
+      - href: "https://www.linkedin.com/in/raleighhalbert/"
+        text: LinkedIn
+      - href: "mailto:halbert.raleigh@gmail.com"
+        text: Email       
+        
+    
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: false
+    include-in-header:
+      - text: |
+          <script src="scripts.js"></script>
+
+editor: visual
+

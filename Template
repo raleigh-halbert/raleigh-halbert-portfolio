@@ -1,0 +1,36 @@
+::::: cert-grid
+::: cert-card
+```{=html}
+<a href="LINK HERE"
+   target="_blank"
+   rel="noopener noreferrer">
+```
+
+<h3>Certificate or Project Name Here</h3>
+
+```{=html}
+<img src="Image File Path Here"
+     alt="Certificate or Project Name Here"/>
+```
+
+</a>
+:::
+
+::: cert-card
+```{=html}
+<a href="LINK HERE"
+   target="_blank"
+   rel="noopener noreferrer">
+```
+
+<h3>Certificate or Project Name Here</h3>
+
+```{=html}
+<img src="Image File Path Here"
+     alt="Certificate or Project Name Here"/>
+```
+
+</a>
+:::
+
+:::::
